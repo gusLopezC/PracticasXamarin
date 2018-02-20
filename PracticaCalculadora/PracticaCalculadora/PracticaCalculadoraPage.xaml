@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PracticaCalculadora" x:Class="PracticaCalculadora.PracticaCalculadoraPage">
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Ingrese primer numero"></Label>
+        <Entry x:Name="n1" Keyboard="Numeric"></Entry>
+        <Label Text="Ingrese segundo numero"></Label>
+        <Entry  x:Name="n2" Keyboard="Numeric"></Entry>
+       
+        <Button Text="Limpiar" Clicked="click_btn2"></Button>
+        <Button Text="Calcular" Clicked="click_btn1"></Button>
+
+    </StackLayout>
+</ContentPage>

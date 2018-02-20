@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PracticaCalculadora.Pagina2">
+	<ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+        <Label  Text="Suma" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"></Label>
+            <Entry x:Name="rsum" IsEnabled="false"></Entry>
+        <Label Text="Resta"></Label>
+            <Entry x:Name="rres" IsEnabled="false"></Entry>
+        <Label Text="Multip"></Label>
+            <Entry x:Name="rmul" IsEnabled="false"></Entry>
+        <Label Text="Division"></Label>
+            <Entry x:Name="rdiv" IsEnabled="false"></Entry>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

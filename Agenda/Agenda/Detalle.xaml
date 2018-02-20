@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Agenda.Detalle" Title="Agregar amigo">
+	<ContentPage.Content>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Text="Agregar amigo" Grid.ColumnSpan="2"></Label>
+            <Label Text="Nombre" Grid.Column="0" Grid.Row="1"  />
+            <Label Text="Telefono"  Grid.Column="0" Grid.Row="2" />
+            <Label Text="Email" Grid.Column="0" Grid.Row="3" /> 
+            <Label Text="Apodo" Grid.Column="0" Grid.Row="4" />
+            <Entry x:Name="txbNombre" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1"></Entry>
+            <Entry x:Name="txbTelefono" HorizontalOptions="FillAndExpand" Grid.Row="2" Grid.Column="1" Keyboard="Telephone"></Entry>
+            <Entry x:Name="txbEmail" HorizontalOptions="FillAndExpand" Grid.Row="3" Grid.Column="1" Keyboard="Email"></Entry>
+            <Entry x:Name="txbApodo" HorizontalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1"></Entry>
+            <Button x:Name="btnGuardar" Text="Guardar" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand"   Style="{StaticResource btnGuardar}"></Button>
+
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Multipedia" 
+    xmlns:forms = "clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+    x:Class="Multipedia.MultipediaPage">
+
+    <StackLayout>
+        <Label Text="Cargar imagen"/>
+   <Image Source="descarga.jpeg" WidthRequest="100" HeightRequest="100"></Image>
+   <!--<forms:MediaElement HorizontalOptions="Fill" VerticalOptions="Center"
+            HeightRequest="240" x:Name="Media"
+            AreTransportControlsEnabled="true" Source="https://goo.gl/pfizYD"/>-->
+
+        <Button x:Name="btnPlay" Text="Reproducir" />
+    </StackLayout>
+</ContentPage>
+                   
